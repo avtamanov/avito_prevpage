@@ -1,0 +1,21 @@
+button.close{
+    text-align: center;
+    float: right
+}
+
+.commentsList{
+    list-style: none;
+}
+
+.commentItem{
+    margin: 10px 10px 10px 10px;
+}
+
+.commentDate{
+    float: left;
+}
+
+.commentText{
+    float: left;
+    margin-left: 20px;
+}
