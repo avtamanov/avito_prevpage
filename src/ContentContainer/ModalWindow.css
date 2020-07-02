@@ -1,10 +1,13 @@
 button.close{
     text-align: center;
-    float: right
+    float: right;
+    margin: 10px 10px 10px 70%;
 }
 
 .commentsList{
     list-style: none;
+    float: left;
+    margin: 0 20px 0 20px;
 }
 
 .commentItem{
@@ -12,10 +15,32 @@ button.close{
 }
 
 .commentDate{
-    float: left;
+    color: grey;
 }
 
 .commentText{
+}
+
+.imageContent{
     float: left;
-    margin-left: 20px;
+    margin: 20px 20px 20px 20px;
+    min-width: 50%;
+}
+
+.toComment{
+    float: left;
+}
+.toCommentName{
+    min-width: 50%;
+    margin: 10px 0 10px 20px;
+}
+.toCommentText{
+    min-width: 50%;
+    margin: 10px 0 10px 20px;
+}
+.toCommentButton{
+    min-width: 50%;
+    margin: 10px 0 10px 20px;
+    color: white;
+    background: lightskyblue;
 }

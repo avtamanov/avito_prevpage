@@ -42,6 +42,7 @@ class ContentContainer extends React.Component{
         let request = axios.get('https://boiling-refuge-66454.herokuapp.com/images/'+imgID)
             .then(result => {
                 this.setState({modalProps: result.data});
+                console.log(result.data);
             })
     }
     imageClick = this.imageClick.bind(this);
