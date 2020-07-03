@@ -1,46 +1,115 @@
+@media (min-width: 1000px) {
+    .imageContent{
+        float: left;
+        margin: 20px 20px 20px 20px;
+        min-width: 50%;
+    }
+    .commentsList{
+        list-style: none;
+        float: left;
+        margin: 0 20px 0 20px;
+    }
+
+    button.close{ margin-left: 40%}
+
+    .toCommentName{
+        min-width: 50%;
+        margin: 10px 0 10px 20px;
+    }
+    .toCommentText{
+        min-width: 50%;
+        margin: 10px 0 10px 20px;
+    }
+    .toCommentButton{
+        min-width: 50%;
+        margin: 10px 0 10px 20px;
+        color: white;
+        background: lightskyblue;
+    }
+}
+@media (min-width: 650px) and (max-width: 999px) {
+    .imageContent{
+        float: left;
+        margin: 20px 20px 20px 20px;
+        min-width: 90%;
+    }
+    .commentsList{
+        list-style: none;
+        float: left;
+        margin: 0 20px 0 20px;
+        width: 100%;
+    }
+    .toCommentName{
+        min-width: 50%;
+        margin: 10px 0 10px 20px;
+    }
+    .toCommentText{
+        min-width: 50%;
+        margin: 10px 0 10px 20px;
+    }
+    .toCommentButton{
+        min-width: 50%;
+        margin: 10px 0 10px 20px;
+        color: white;
+        background: lightskyblue;
+    }
+}
+@media (max-width: 649px) {
+    .imageContent{
+        float: left;
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    .commentsList{
+        list-style: none;
+        float: left;
+        margin: 0 0 0 0;
+        width: 90%;
+    }
+    .commentDate{
+        font-size: 80%;
+    }
+    .commentText{
+        font-size: 80%;
+    }
+    .toCommentName{
+        width: 90%;
+        margin: 10px 5px 10px 5px;
+        font-size: 80%;
+    }
+    .toCommentText{
+        width: 90%;
+        margin: 10px 5px 10px 5px;
+        font-size: 80%;
+    }
+    .toCommentButton{
+        width: 100%;
+        margin: 10px 0 10px 0;
+        color: white;
+        background: lightskyblue;
+        font-size: 80%;
+    }
+}
+
+.buttonContainer{
+    width: 100%;
+}
 button.close{
     text-align: center;
     float: right;
-    margin: 10px 10px 10px 70%;
-}
-
-.commentsList{
-    list-style: none;
-    float: left;
-    margin: 0 20px 0 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .commentItem{
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 5%;
 }
 
 .commentDate{
     color: grey;
 }
 
-.commentText{
-}
-
-.imageContent{
-    float: left;
-    margin: 20px 20px 20px 20px;
-    min-width: 50%;
-}
-
 .toComment{
     float: left;
-}
-.toCommentName{
-    min-width: 50%;
-    margin: 10px 0 10px 20px;
-}
-.toCommentText{
-    min-width: 50%;
-    margin: 10px 0 10px 20px;
-}
-.toCommentButton{
-    min-width: 50%;
-    margin: 10px 0 10px 20px;
-    color: white;
-    background: lightskyblue;
 }

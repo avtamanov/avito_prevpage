@@ -40,7 +40,9 @@ function ModalWindow(props){
     }
 
     return <div>
-        <button className="close" onClick={props.onClick}>Close</button>
+        <div className="buttonContainer">
+            <button className="close" onClick={props.onClick}>Close</button>
+        </div>
         <img src={data.url} className="imageContent"/>
         <div className="commentsList">{commentsArr}</div>
         <div className="toComment">

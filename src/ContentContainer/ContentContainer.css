@@ -2,6 +2,46 @@
     .imageItem {
         width: 30%;
     }
+    .imageItself{
+        width: 100%;
+    }
+    .modalWindow.open{
+        min-width: 80%;
+        min-height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media (min-width: 650px) and (max-width: 949px) {
+    .imageItem {
+        width: 45%;
+    }
+    .imageItself{
+        width: 100%;
+    }
+    .modalWindow.open{
+        min-width: 80%;
+        min-height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+}
+@media (max-width: 649px) {
+    .imageItem {
+        width: 95%;
+    }
+    .imageItself{
+        width: 100%;
+    }
+    .modalWindow.open{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
 }
 
 .imageItem {
@@ -11,16 +51,8 @@
 
 
 .overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: grey;
-    opacity: 0.5;
     visibility: hidden;
 }
-
 .overlay.open{
     position: fixed;
     top: 0;
@@ -34,25 +66,12 @@
 }
 
 .modalWindow {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 80%;
-    min-height: 80%;
-    z-index: 30;
-    background: white;
     visibility: hidden;
 }
 
 .modalWindow.open {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 80%;
-    min-height: 80%;
     z-index: 30;
+    position: fixed;
     background: white;
     visibility: visible;
 }
